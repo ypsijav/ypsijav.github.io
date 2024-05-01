@@ -1,0 +1,69 @@
+date,pick,dateText,time,cost,presenter,event,eventLink,title,link,format,director,year,title2,director2,year2,title3,director3,year3,notes,venue
+2024-05-02,TRUE,Wed 5/1,6p,FREE,Kylyn Festival presents,,,Attack From Space!,https://aadl.org/node/627523,,Koreyoshi Akasaka & Teruo Ishii,1961,,,,,,,live score by Joo Won Park,AADL Multipurpose Room
+2024-05-02,FALSE,Wed 5/1,7p,$12.50,,,,Spirited Away,https://www.cinemark.com/movies/spirited-away-studio-ghibli-fest-2024-japanese-with-english-subtitles?showDate=2024-05-01,,Hiyao Miyazaki,2001,,,,,,,In Japanese with English subtitles,Cinemark Ann Arbor 20
+2024-05-02,FALSE,Wed 5/1,8:00 PM,$7,VHS Detroit presents,TAPES ONLY (title TBD),,,https://www.eventbrite.com/e/tapes-only-the-live-movie-watching-event-of-the-century-tickets-862483410097?aff=erelexpmlt,,,,,,,,,,,Planet Ant Hamtramck
+2024-05-03,FALSE,Thu 5/2,7:30p,$10.50,,,,True Romance,https://marquee-arts.org/event-page/tickets/?showingId=862374,,Tony Scott,1993,,,,,,,,State Theatre 1
+2024-05-04,FALSE,Fri 5/3,6p,FREE,,,,Past Lives,https://aadl.org/node/626607,,Celine Song,2023,,,,,,,,AADL Multipurpose Room
+2024-05-04,FALSE,Fri 5/3,7p,$15,,,,Boogie Nights,https://redfordtheatre.com/events/boogie-nights-1997-in-70mm/,70MM,Paul Thomas Anderson,1997,,,,,,,,Redford Theatre
+2024-05-05,FALSE,Sat 5/4,7p,$15,,,,Boogie Nights,https://redfordtheatre.com/events/boogie-nights-1997-in-70mm/,70MM,Paul Thomas Anderson,1997,,,,,,,,Redford Theatre
+2024-05-04,FALSE,Fri 5/3,8p,FREE,Wyrd Movie Night,,,The Brood,https://www.instagram.com/p/C6bVfmWu35e/,,David Cronenberg,1979,,,,,,,,Wyrd Byrd Ypsilanti
+2024-05-04,FALSE,Fri 5/3,9:07p,FREE,First Fridays Ypsilanti presents,,,Labyrinth,https://firstfridaysypsi.com/events/,,Jim Henson,1986,,,,,,,,Frog Island Ampitheater Ypsilanti
+2024-05-04,FALSE,Fri 5/3,9:30p,$10.50,,,,Escape From New York,https://marquee-arts.org/event-page/tickets/?showingId=862376,,John Carpenter,1981,,,,,,,,State Theatre 1
+2024-05-06,FALSE,Sun 5/5,2p,FREE,,,,A Raisin in the Sun,https://dia.org/events/raisin-sun,,Daniel Petrie,1961,,,,,,,Regeneration: Black Cinema 1898-1971 exhibit at the DIA through 6/23,DIA Lecture Hall
+2024-05-06,FALSE,Sun 5/5,4p,$12.50,,,,Steel Magnolias,https://www.cinemark.com/movies/steel-magnolias-35th-anniversary?showDate=2024-05-05,,Herbert Ross,1989,,,,,,,,Cinemark Ann Arbor 20
+2024-05-06,FALSE,Sun 5/5,5:30,$13,Cinema Detroit presents,,,Santo vs. Evil Brain,https://www.eventbrite.com/e/cinema-detroit-presents-an-el-santo-double-feature-at-planet-ant-tickets-876884123017,,Joselito Rodriguez,1961,Santo vs. Infernal Men,Joselito Rodriguez,,,,,,Planet Ant Hamtramck
+2024-05-07,FALSE,Mon 5/6,6p,FREE,,,,The Most Honorable Son,https://aadl.org/node/627505,,Bill Kubota,2023,,,,,,,Q&A with director follows,AADL Multi-Purpose Room
+2024-05-07,FALSE,Mon 5/6,7p,$10,,,,The Amazing Spider-Man ,https://redfordtheatre.com/events/the-amazing-spider-man-2012-in-35mm/,35MM,Mark Webb,2012,,,,,,,,Redford Theatre
+2024-05-08,FALSE,Tue 5/7,7:30p,FREE,8 Ball Movie Night,Pimpin’ Ain’t Easy,,Doctor Detroit,,,Michael Pressman,1983,Willie Dynamite,Gilbert Moses,1973,,,,,8 Ball Ann Arbor
+2024-05-09,FALSE,Wed 5/8,7p,$12.50,,,,Steel Magnolias,https://www.cinemark.com/movies/steel-magnolias-35th-anniversary?showDate=2024-05-05,,Herbert Ross,1989,,,,,,,,Cinemark Ann Arbor 20
+2024-05-10,FALSE,Thu 5/9,8p,SOLD OUT,Cinema Detroit presents,,,The People’s Joker,https://www.eventbrite.com/e/film-the-peoples-joker-tickets-883865554667,,Vera Drew,2022,,,,,,,,Planet Ant Hamtramck
+2024-05-10,TRUE,Thu 5/9,11p,$12,Cinema Detroit presents,,,The People’s Joker,https://www.eventbrite.com/e/film-the-peoples-joker-tickets-883865554667,,Vera Drew,2022,,,,,,,,Planet Ant Hamtramck
+2024-05-10,FALSE,Thu 5/9,7:30p,$10.50,,,,Escape From New York,https://marquee-arts.org/event-page/tickets/?showingId=862376,,John Carpenter,1981,,,,,,,,State Theatre 1
+2024-05-11,FALSE,Fri 5/10,8p,$10.00,,,,Marqueetown,https://www.senatetheater.com/events-input/marqueetown,,Joseph Beyer & Jordan Anderson,2023,,,,,,,,Senate Theater Detroit
+2024-05-11,FALSE,Fri 5/10,9:30p,$10.50,,,,Death Proof,https://marquee-arts.org/event-page/?showingId=862379&eventId=862378,,Quentin Tarantino,2007,,,,,,,,State Theatre 1
+2024-05-12,FALSE,Sat 5/11,8p,$12,Silents at the Senate,An Evening with Buster Keaton,https://www.senatetheater.com/events-input/silents-at-the-senate-presents-an-evening-with-buster-keaton,The Goat,,,Buster Keaton & Malcolm St. Clair,1921,One Week,Buster Keaton & Edward F. Cline,1920,Sherlock Jr.,Buster Keaton,1924,organ accomp. by Dennis Scott,Senate Theater Detroit
+2024-05-13,FALSE,Sun 5/12,2p,FREE,,,,Cabin in the Sky,https://dia.org/events/cabin-sky,,Vincente Minnelli,1943,,,,,,,Regeneration: Black Cinema 1898-1971 exhibit at the DIA through 6/23,DIA Lecture Hall
+2024-05-13,FALSE,Sun 5/12,7p,$17,,Found Footage Festival,https://www.eventbrite.com/e/found-footage-festival-volume-10-live-at-planet-ant-tickets-857084110647?aff=ebdssbdestsearch,,,,,,,,,,,,,Planet Ant Hamtramck
+2024-05-14,FALSE,Mon 5/13,7p,$10,,,,The Amazing Spider-Man 2,https://redfordtheatre.com/events/the-amazing-spider-man-2-2014-in-35mm/,,Mark Webb,2014,,,,,,,,Redford Theatre
+2024-05-15,FALSE,Tue 5/14,7p,$11,,,,The Philadelphia Eleven,https://marquee-arts.org/event-page/?showingId=865611&eventId=865610,,Margo Guernsey and Nikki Bramley,2024,,,,,,,"Featuring a post-film discussion with Rt. Rev. Dr. Bonnie A. Perry, The Rev. Joyce Matthews, The Rev. Barbara Cavin, The Rev. Emily Williams Guffey, and The Rev. Anne Clarke (moderator)",Michigan Theater Screening Room
+2024-05-16,FALSE,Wed 5/15,6:30p,$12,,,,Love Lies Bleeding,https://www.eventbrite.com/e/cinema-detroit-presents-love-lies-bleeding-tickets-893773469507?aff=oddtdtcreator,,Rose Glass,2024,,,,,,,,MOCAD
+2024-05-17,FALSE,Thu 5/16,7:30p,$10.50,,,,Death Proof,https://marquee-arts.org/event-page/?showingId=862379&eventId=862378,,Quentin Tarantino,2007,,,,,,,,State Theatre 1
+,FALSE,Thu 5/16,8p,FREE,Slimeball Cinerama presents,,,Night of the Creeps,https://www.instagram.com/p/C4zA0ksr_hh/,,Fred Dekker,1986,,,,,,,,Trixie's Hamtramck
+2024-05-18,FALSE,Fri 5/17,7p,$7,,,,Seven Brides for Seven Brothers,https://redfordtheatre.com/events/seven-brides-for-seven-brothers-1954/,,Stanley Donan,1954,,,,,,,,Redford Theatre
+2024-05-18,FALSE,Fri 5/17,9:30p,$10.50,,,,Dune,https://marquee-arts.org/event-page/tickets/?showingId=862384,,David Lynch,1984,,,,,,,,State Theatre 1
+2024-05-19,FALSE,Sat 5/18,2p,$7,,,,I Remember Mama,https://redfordtheatre.com/events/i-remember-mama-1948/,,George Stevens,1948,,,,,,,,Redford Theatre
+2024-05-20,FALSE,Sun 5/19,1p,$12.50,,,,North by Northwest,https://www.cinemark.com/movies/north-by-northwest-65th-anniversary?showDate=2024-05-19,,Alfred Hitchcock,1959,,,,,,,,Cinemark Ann Arbor 20
+2024-05-20,FALSE,Sun 5/19,1:30p,$10.50,FALASTEEN ON SCREEN,,,Bye Bye Tiberias,https://marquee-arts.org/event-page/tickets/?showingId=851239,,Lina Soualem,2023,,,,,,,in French and Arabic with English subs,Michigan Theater
+2024-05-20,FALSE,Sun 5/19,3p & 7p,$12.50,,,,Nausicaa of the Valley of the Wind,https://www.cinemark.com/movies/nausicaa-of-the-valley-of-the-wind-40th-anniversary-studio-ghibli-fest-2024-english-dubbed?showDate=2024-05-19,,Hayao Miyazaki,1984,,,,,,,,Cinemark Ann Arbor 20
+2024-05-20,FALSE,Sun 5/19,3p & 7p,$12.50,,,,Nausicaa of the Valley of the Wind,https://www.cinemark.com/movies/nausicaa-of-the-valley-of-the-wind-40th-anniversary-studio-ghibli-fest-2024-english-dubbed?showDate=2024-05-19,,Hayao Miyazaki,1984,,,,,,,,Cinemark Ann Arbor 20
+2024-05-21,FALSE,Mon 5/20,7p,$12.50,,,,Castle in the Sky,https://www.cinemark.com/movies/castle-in-the-sky-studio-ghibli-fest-2024-english-dubbed?showDate=2024-05-20,,Hiyao Miyazaki,1986,,,,,,,,Cinemark Ann Arbor 20
+2024-05-22,FALSE,Tue 5/21,7p,$30,,,,Eno,https://www.eventbee.com/v/enodetroit#/tickets,,Gary Hustwit,2024,,,,,,,,Detroit Film Theater
+2024-05-22,FALSE,Tue 5/21,7:30,FREE,8 Ball Movie Night,Space Vampires of ‘85,https://www.facebook.com/events/657611436539215/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_profile_plus_create%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1714352860632152&notif_t=event_profile_plus_create&ref=notif,Evils of the Night,,,Mardi Rustam,1985,Lifeforce,Tobe Hooper,1985,,,,,8 Ball Ann Arbor
+2024-05-23,FALSE,Wed 5/22,7p,$12.50,,,,Castle in the Sky,https://www.cinemark.com/movies/castle-in-the-sky-studio-ghibli-fest-2024-english-dubbed?showDate=2024-05-20,,Hiyao Miyazaki,1986,,,,,,,in Japanese with English subtitles,Cinemark Ann Arbor 20
+2024-05-25,FALSE,Fri 5/24,7p,$12,Detroit Film Theater,,,Evil Does Not Exist,https://dia.org/events/evil-does-not-exist,,Ryûsuke Hamaguchi,2023,,,,,,,,Detroit Film Theater
+2024-05-25,FALSE,Fri 5/24,7p,$10.50,,,,Hundreds of Beavers,https://marquee-arts.org/event-page/tickets/?showingId=866601,,Mike Cheslik,2022,,,,,,,,Michigan Theater
+2024-05-26,FALSE,Sat 5/25,2p,FREE,,,,Minari,https://aadl.org/node/626608,,Lee Isaac Chung,2020,,,,,,,,AADL Multipurpose Room
+2024-05-25,FALSE,Fri 5/24,9:30,$10.50,,,,Promare,https://marquee-arts.org/event-page/tickets/?showingId=862385,,Hiroyuki Imaishi,2019,,,,,,,in Japanese with English subtitles,State Theatre 1
+2024-05-27,FALSE,Sun 5/26,1:30,$10.50,,,,Willy Wonka and the Chocolate Factory,https://marquee-arts.org/event-page/tickets/?showingId=860959,,Mel Stuart,1971,,,,,,,FREE UNDER 12,Michigan Theater Auditorium
+2024-05-28,FALSE,Mon 5/27,8:30,$5,Cinema Lamont & Fourth Wall Detroit present,,,Party Girl,https://www.eventbrite.com/e/party-girl-by-the-foundation-hotel-cinema-lamont-the-fourth-wall-tickets-882062682227,,Daisy von Scherler Mayer,1995,,,,,,,,Detroit Foundation Hotel
+2024-06-02,FALSE,Sat 6/1,8p,$6,,,,Who Framed Roger Rabbit?,https://www.senatetheater.com/events-input/who-framed-roger-rabbit-1988,,Robert Zemeckis,1988,,,,,,,,Senate Theater Detroit
+2024-06-04,FALSE,Mon 6/3,6p,FREE,,,,Pariah,https://aadl.org/node/628265,,Dee Rees,2011,,,,,,,,AADL Multi-Purpose Room
+2024-06-08,FALSE,Fri 6/7,5:30,FREE,Interactive Movie Experience,,,The Princess Bride,https://aadl.org/node/626142,,Rob Reiner,1987,,,,,,,,AADL Multi-Purpose Room
+2024-06-08,FALSE,Fri 6/7,8p,$12,,,,The Adventures of Priscilla Queen of the Desert,https://redfordtheatre.com/events/the-adventures-of-priscilla-queen-of-the-desert-1994/,,Stephan Elliott,1994,,,,,,,,Redford Theatre
+2024-06-09,FALSE,Sat 6/8,2p,$7,,,,Viva Las Vegas,https://redfordtheatre.com/events/viva-las-vegas-1964/,,George Sidney,1964,,,,,,,,Redford Theatre
+2024-06-09,FALSE,Sat 6/8,8p,$7,,,,The Secret of Nimh,https://redfordtheatre.com/events/the-secret-of-nimh-1982/,,Don Bluth,1982,,,,,,,,Redford Theatre
+2024-06-09,FALSE,Sat 6/8,8p,$12,Silents at the Senate,,,The Thief of Baghdad,https://www.senatetheater.com/events-input/silents-at-the-senate-presents-the-thief-of-bagdad,,Michael Powell & Ludwig Berger & Tim Whelan,1940,,,,,,,,Senate Theater Detroit
+2024-06-10,FALSE,Sun 6/9,3p & 7p,$12.50,,,,The Secret World of Arrietty,,,Hiromasa Yonebayashi,2012,,,,,,,,Cinemark Ann Arbor 20
+2024-06-11,FALSE,Mon 6/10,7p,$12.50,,,,When Marnie Was There,,,Hiromasa Yonebayashi,2014,,,,,,,,Cinemark Ann Arbor 20
+2024-06-12,FALSE,Tue 6/11,6p,FREE,,,,But I’m a Cheerleader,https://aadl.org/node/628257,,Jamie Babbit,1999,,,,,,,,AADL Multi-Purpose Room
+2024-06-12,FALSE,Tue 6/11,7p,$12.50,,,,The Secret World of Arrietty,,,Hiromasa Yonebayashi,2012,,,,,,,in Japanese with English subtitles,Cinemark Ann Arbor 20
+2024-06-12,FALSE,Tue 6/11,7p,$6,,,,The Thin Man,https://www.milfordcinema.org/allfilms/thethinman,,W. S. Van Dyke,1934,,,,,,,,Milford Independent Cinema
+2024-06-13,FALSE,Wed 6/12,7p,$12.50,,,,When Marnie Was There,,,Hiromasa Yonebayashi,2014,,,,,,,in Japanese with English subtitles,Cinemark Ann Arbor 20
+2024-06-15,FALSE,Fri 6/14,6p,FREE,Silent Movie Night,,,The Wind,https://aadl.org/node/628097,,Victor Sjöström,1928,,,,,,,,AADL Multi-Purpose Room
+2024-06-22,FALSE,Fri 6/21,8p,$7,,,,Moonstruck,https://redfordtheatre.com/events/moonstruck-1987/,,Norman Jewison,1987,,,,,,,,Redford Theatre
+2024-06-23,FALSE,Sat 6/22,2p,$7,,,,Godzilla vs. the Smog Monster,https://redfordtheatre.com/events/godzilla-vs-the-smog-monster-1971/,,Yoshimitsu Banno,1971,,,,,,,,Redford Theatre
+2024-06-23,FALSE,Sat 6/22,6p,FREE,,,,Kusama Infinity: the Life and art of Yayoi Kusama,https://aadl.org/node/628757,,Heather Lenz,2018,,,,,,,,AADL Multi-Purpose Room
+2024-06-23,FALSE,Sat 6/22,8p,$7,,,,Godzilla,https://redfordtheatre.com/events/godzilla-1954/,,Ishirō Honda,1954,,,,,,,,Redford Theatre
+2024-06-23,FALSE,Sat 6/22,8p,$12,,,,Dog Day Afternoon,https://www.senatetheater.com/events-input/dog-day-afternoon-1975,,Sidney Lumet,1975,,,,,,,,Senate Theater Detroit
+2024-06-22,FALSE,Fri 6/21,8p,$7,,,,The Lost Boys,https://redfordtheatre.com/events/the-lost-boys-1987/,,Joel Schumacher,1987,,,,,,,,Redford Theatre
+2024-06-26,FALSE,Tue 6/25,7p,$6,,,,Jaws,https://www.milfordcinema.org/allfilms/jaws,,Steven Spielberg,1975,,,,,,,,Milford Independent Cinema
