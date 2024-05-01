@@ -1,2 +1,1 @@
 # ypsijav.github.io
-CINEMANIA
