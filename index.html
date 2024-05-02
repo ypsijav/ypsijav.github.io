@@ -8,7 +8,25 @@
   body {
     font-family: Georgia, serif;
     margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: white; /* Change background color to white */
+    color: black; /* Change text color to black */
+    text-align: center;
+    padding: 10px 0;
+  }
+  header img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
+  }
+  .column {
+    flex: 1;
+    margin-right: 20px;
   }
   .staff-pick {
     font-size: 1.2em;
@@ -17,40 +35,143 @@
   }
   .movie {
     margin-bottom: 20px;
-	font-size: 12pt;  
+    font-size: 12pt;  
   }
   .time {
     font-weight: bold;
   }
   .title {
-	font-size: 16pt;
-	font-weight: bold;
-	font-style: italic;
-	text-decoration: none;
-	}
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+  }
   .event {
-	font-size: 16pt;
-	font-weight: bold;
-	text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .title-link {
+    text-decoration: none;
+  }
+  #film-festivals {
+    list-style-type: none;
+    padding: 0;
+  }
+  #film-festivals li {
+    margin-bottom: 10px;
+  }
+  #film-festivals a {
+    text-decoration: none;
+    color: blue;
+  }
 
+  .column img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
-	}
-	.title-link {
-  text-decoration: none; /* Remove underline */
-  /* Additional styling if needed */
-}
-
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+    .column {
+      flex: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
 </style>
 </head>
 <body>
 
-<h1>CINEMANIA!</h1>
+<header>
+  <!-- Replace 'logo.png' with the path to your logo image -->
+  <img src="logo.png" alt="CINEMANIA Logo">
+</header>
 
-<!-- Container for movie listings -->
-<div id="movieListings"></div>
+<div class="container">
+  <div class="column">
+    <!-- Container for movie listings -->
+    <div id="movieListings"></div>
+  </div>
+  
+  <div class="column">
+    <img src="Cinemaniathumb.jpg" alt="CINEMANIA Thumbnail">
+  </div>
+
+  <div class="column">
+ 
+  <div id="mc_embed_shell">
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+        #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: px;}
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+    <form action="https://website.us22.list-manage.com/subscribe/post?u=43b14fe45a964c9bb30c00c8a&amp;id=bcb1779527&amp;f_id=002acae1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div><div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" value="" required=""></div>
+        <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display: none;"></div>
+            <div class="response" id="mce-success-response" style="display: none;"></div>
+        </div>
+    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+        <input type="text" name="b_43b14fe45a964c9bb30c00c8a_bcb1779527" tabindex="-1" value="">
+    </div>
+        <div class="optionalParent">
+            <div class="clear foot">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                <p style="margin: 0px auto;"><a href="http://eepurl.com/iPgnLE" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+           
+        </div>
+    </div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
+
+	<ul id="film-festivals">
+    <li><a href="https://cinemadetroit.org/" target="_blank">Cinema Detroit</a></li>
+    <li><a href="https://www.cinemalamont.com" target="_blank">Cinema Lamont</a></li>
+    <li><a href="https://motorcitycinema.org/" target="_blank">Motor City Cinema Society</a></li>
+    <li><a href="https://clas.wayne.edu/cinema" target="_blank">Wayne State University Department of Cinema and Media Studies</a></li>
+  </ul>
+  <h2>Theaters</h2>
+  <ul id="film-festivals">
+    <li><a href="https://www.michtheater.org/" target="_blank">Michigan Theater (Ann Arbor)</a></li>
+    <li><a href="https://www.dia.org/detroit-film-theatre" target="_blank">Detroit Film Theatre</a></li>
+    <li><a href="https://www.senatetheater.com/" target="_blank">Senate Theater (Detroit)</a></li>
+    <li><a href="https://redfordtheatre.com/" target="_blank">Redford Theatre (Detroit)</a></li>
+    <li><a href="https://www.milfordcinema.org/" target="_blank">Milford Cinema (Milford)</a></li>
+    <li><a href="https://www.historichowelltheater.com/" target="_blank">Historic Howell Theater (Howell)</a></li>
+    <li></li>
+  </ul>
+
+	
+  <h2>Film Festivals</h2>
+  <ul id="film-festivals">
+    <li><a href="https://elff.com/" target="_blank">East Lansing Film Festival</a> - Late February</li>
+    <li><a href="https://aafilmfest.org/" target="_blank">Ann Arbor Film Festival</a> - Late March</li>
+    <li><a href="https://www.freepfilmfestival.com/" target="_blank">Freep Film Festival (Detroit)</a> - Early April</li>
+    <li><a href="https://www.capcityfilmfest.com/" target="_blank">Capital City Film Festival (Lansing)</a> - Mid April</li>
+    <li><a href="http://iffypsi.org" target="_blank">Independent Film Festival Ypsilanti</a> - Late April</li>
+    <li><a href="https://www.arabamericanmuseum.org/arab-film-festival" target="_blank">Arab Film Festival (Dearborn)</a> - Mid May</li>
+    <li><a href="https://www.jccannarbor.org/film-festival" target="_blank">Ann Arbor Jewish Film Festival</a> - May</li>
+    <li><a href="https://marquee-arts.org/cinetopia/" target="_blank">Cinetopia Film Festival (Ann Arbor)</a> - June</li>
+    <li><a href="https://mediacityfilmfestival.com/" target="_blank">Media City Film Festival</a> - November</li>
+  </ul>
+</div>
+  </div>
+</div>
 
 <script>
-  // Function to fetch CSV file and process its contents
+  // Function to fetch CSV file containing movie data and render movie listings
   async function fetchMovieData() {
     try {
       const response = await fetch('listings.csv');
@@ -61,105 +182,80 @@
       console.error('Error fetching movie data:', error);
     }
   }
-// Function to parse CSV data into an array of objects
-function parseCsv(csvData) {
-  const currentDate = new Date();
-  const lines = csvData.trim().split('\n');
-  const headers = lines[0].split(',');
-  const movies = [];
 
-  for (let i = 1; i < lines.length; i++) {
-    const values = lines[i].split(',');
-    const movie = {};
+  // Function to parse CSV data into an array of objects
+  function parseCsv(csvData) {
+    const currentDate = new Date();
+    const lines = csvData.trim().split('\n');
+    const headers = lines[0].split(',');
+    const movies = [];
 
-    for (let j = 0; j < headers.length; j++) {
-      movie[headers[j].trim()] = values[j].trim();
+    for (let i = 1; i < lines.length; i++) {
+      const values = lines[i].split(',');
+      const movie = {};
+
+      for (let j = 0; j < headers.length; j++) {
+        movie[headers[j].trim()] = values[j].trim();
+      }
+
+      // Convert dateText to a Date object for comparison
+      const movieDate = new Date(movie.date);
+
+      // Check if the movie date is later than or equal to today's date (comparing date part only)
+      if (movieDate.getFullYear() > currentDate.getFullYear() ||
+          (movieDate.getFullYear() === currentDate.getFullYear() &&
+          movieDate.getMonth() > currentDate.getMonth()) ||
+          (movieDate.getFullYear() === currentDate.getFullYear() &&
+          movieDate.getMonth() === currentDate.getMonth() &&
+          movieDate.getDate() >= currentDate.getDate())) {
+        movies.push(movie);
+      }
     }
 
-    // Convert dateText to a Date object for comparison
-    const movieDate = new Date(movie.date);
-
-    // Check if the movie date is later than or equal to today's date (comparing date part only)
-    if (movieDate.getFullYear() > currentDate.getFullYear() ||
-        (movieDate.getFullYear() === currentDate.getFullYear() &&
-         movieDate.getMonth() > currentDate.getMonth()) ||
-        (movieDate.getFullYear() === currentDate.getFullYear() &&
-         movieDate.getMonth() === currentDate.getMonth() &&
-         movieDate.getDate() >= currentDate.getDate())) {
-      movies.push(movie);
-    }
+    return movies;
   }
-
-  return movies;
-}
-
-// Function to check if two dates are the same day (comparing date part only)
-function isSameDay(date1, date2) {
-  return date1.getDate() === date2.getDate() &&
-         date1.getMonth() === date2.getMonth() &&
-         date1.getFullYear() === date2.getFullYear();
-}
-
 
   // Function to generate HTML markup for a single movie listing
-
-// Function to generate HTML markup for a single movie listing
-function generateMovieListing(movie) {
-  // Define the text for Staff Pick
-  const staffPickText = 'Staff Pick';
-  // Define stars for the Staff Pick decoration
-  const stars = '★'.repeat(2); // Unicode character for a filled star
-
-  // Check if the movie is marked as a staff pick
-  const isStaffPick = movie.pick === 'TRUE';
-
-  // Generate HTML markup with Staff Pick surrounded by stars if it's a staff pick
-  const staffPickHTML = isStaffPick ? `<div class="time">${stars} ${staffPickText} ${stars}</div>` : '';
-
-  // Generate HTML markup for the title with or without the link
-  let titleHTML = '';
-  if (movie.link) {
-    titleHTML = `<div class="title"><a href="${movie.link}" target="_blank" class="title-link">${movie.title}</a></div> <div class="event"> ${movie.format} </div>`;
-  } else {
-    titleHTML = `<div class="title">${movie.title}</div><div class="event"> ${movie.format} </div>`;
+  function generateMovieListing(movie) {
+    const staffPickText = 'Staff Pick';
+    const stars = '★'.repeat(2); // Unicode character for a filled star
+    const isStaffPick = movie.pick === 'TRUE';
+    const staffPickHTML = isStaffPick ? `<div class="time">${stars} ${staffPickText} ${stars}</div>` : '';
+    let titleHTML = '';
+    if (movie.link) {
+      titleHTML = `<div class="title"><a href="${movie.link}" target="_blank" class="title-link">${movie.title}</a></div> <div class="event"> ${movie.format} </div>`;
+    } else {
+      titleHTML = `<div class="title">${movie.title}</div><div class="event"> ${movie.format} </div>`;
+    }
+    let eventHTML = '';
+    if (movie.eventLink) {
+      eventHTML = `<div class="event"><a href="${movie.eventLink}" target="_blank" class="event">${movie.event}</a></div>`;
+    } else {
+      eventHTML = `<div class="event">${movie.event}</div>`;
+    }
+    const movieListingHTML = `
+      <div class="movie">
+        ${staffPickHTML}
+        <div class="time">${movie.dateText} • ${movie.time} • ${movie.cost}</div>
+        <div class="time">${movie.presenter}</div>
+        ${eventHTML}
+        ${titleHTML} 
+        <div class="director">${movie.director ? `(${movie.director} ${movie.year})` : ''}</div>
+        <div class="title">${movie.title2}</div>
+        <div class="director">${movie.director2 ? `(${movie.director2} ${movie.year2})` : ''}</div>
+        <div class="title">${movie.title3}</div>
+        <div class="director">${movie.director3 ? `(${movie.director3} ${movie.year3})` : ''}</div>
+        <div class="director">${movie.notes}</div>
+        <div class="time">${movie.venue}</div>
+      </div>
+    `;
+    return movieListingHTML;
   }
-
-  // Generate HTML markup for the event with or without the link
-  let eventHTML = '';
-  if (movie.eventLink) {
-    eventHTML = `<div class="event"><a href="${movie.eventLink}" target="_blank" class="event">${movie.event}</a></div>`;
-  } else {
-    eventHTML = `<div class="event">${movie.event}</div>`;
-  }
-
-  // Generate HTML markup for the rest of the movie listing
-  const movieListingHTML = `
-    <div class="movie">
-      ${staffPickHTML}
-      <div class="time">${movie.dateText} • ${movie.time} • ${movie.cost}</div>
-      <div class="time">${movie.presenter}</div>
-      ${eventHTML}
-      ${titleHTML} 
-      <div class="director">${movie.director ? `(${movie.director} ${movie.year})` : ''}</div>
-      <div class="title">${movie.title2}</div>
-      <div class="director">${movie.director2 ? `(${movie.director2} ${movie.year2})` : ''}</div>
-      <div class="title">${movie.title3}</div>
-      <div class="director">${movie.director3 ? `(${movie.director3} ${movie.year3})` : ''}</div>
-      <div class="director">${movie.notes}</div>
-      <div class="time">${movie.venue}</div>
-    </div>
-  `;
-
-  return movieListingHTML;
-}
-
 
   // Function to render movie listings on the webpage
   function renderMovieListings(movies) {
     const movieListingsContainer = document.getElementById('movieListings');
     movieListingsContainer.innerHTML = ''; // Clear existing content
-
-    // Render each movie listing
     movies.forEach(movie => {
       const movieListingHTML = generateMovieListing(movie);
       movieListingsContainer.innerHTML += movieListingHTML;
