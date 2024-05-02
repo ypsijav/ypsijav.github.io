@@ -54,6 +54,10 @@
   .title-link {
     text-decoration: none;
   }
+   .venue {
+    font-weight: bold;
+	font-family: Avenir, sans-serif;
+  }
   #film-festivals {
     list-style-type: none;
     padding: 0;
@@ -89,7 +93,7 @@
 
 <header>
   <!-- Replace 'logo.png' with the path to your logo image -->
-  <img src="logo.png" alt="CINEMANIA Logo">
+  <img src="logo3.png" alt="CINEMANIA Logo">
 </header>
 
 <div class="container">
@@ -225,7 +229,7 @@
     if (movie.link) {
       titleHTML = `<div class="title"><a href="${movie.link}" target="_blank" class="title-link">${movie.title}</a></div> <div class="event"> ${movie.format} </div>`;
     } else {
-      titleHTML = `<div class="title">${movie.title}</div><div class="event"> ${movie.format} </div>`;
+      titleHTML = `<div class="title">${movie.title}<div class="event"> ${movie.format} </div></div>`;
     }
     let eventHTML = '';
     if (movie.eventLink) {
