@@ -52,6 +52,14 @@
     text-decoration: none;
 	font-style: normal;
   }
+  .format {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
 	.center-link a {
     font-size: 16pt;
     font-weight: bold;
@@ -62,8 +70,9 @@
   }
 	.center-link {
 	font-size: 16pt;
-		font-weight: bold;
-	text-align: center
+	font-weight: bold;
+	text-align: left;
+	margin: 20px;
 	}
 	.venue {
     font-weight: bold;
@@ -117,7 +126,7 @@
 <div class="container">
   <div class="column">
     <!-- Container for movie listings -->
-    <div id="movieListings"></div>
+    <div id="movieListings" style="margin: 20px"></div>
   </div>
   
   <div class="column">
@@ -126,7 +135,11 @@
 
   <div class="column">
  
-  <div class="center-link"><a href="https://www.buymeacoffee.com/Cinemania" target=_blank>   BUY CINEMANIA! A COFFEE</a></div>	  
+  <div class="center-link">
+	  <a href="https://michiganhappenings.org/public" target=_blank>MICHIGAN HAPPENINGS</a></div>
+  <div class="center-link" style="margin-top: 10px">  
+	  <a href="https://www.buymeacoffee.com/Cinemania" target=_blank>BUY CINEMANIA! A COFFEE</a></div>
+	  
 	  
 
 <div id="mc_embed_signup">
@@ -153,7 +166,7 @@
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
-
+<div style="margin: 20px">
 	<ul id="film-festivals">
     <li><a href="https://cinemadetroit.org/" target="_blank">Cinema Detroit</a></li>
     <li><a href="https://www.cinemalamont.com" target="_blank">Cinema Lamont</a></li>
@@ -184,7 +197,7 @@
     <li><a href="https://marquee-arts.org/cinetopia/" target="_blank">Cinetopia Film Festival (Ann Arbor)</a> - June</li>
     <li><a href="https://mediacityfilmfestival.com/" target="_blank">Media City Film Festival</a> - Fall</li>
   </ul>
-</div>
+	  </div></div>
   </div>
 </div>
 
@@ -241,9 +254,9 @@
     const staffPickHTML = isStaffPick ? `<div class="time">${stars} ${staffPickText} ${stars}</div>` : '';
     let titleHTML = '';
     if (movie.link) {
-      titleHTML = `<div class="title"><a href="${movie.link}" target="_blank" class="title-link">${movie.title}</a><span class="event"> ${movie.format} </span></div>`;
+      titleHTML = `<div class="title"><a href="${movie.link}" target="_blank" class="title-link">${movie.title}</a><span class="format"> ${movie.format} </span></div>`;
     } else {
-      titleHTML = `<div class="title">${movie.title}<div class="event"> ${movie.format} </div></div>`;
+      titleHTML = `<div class="title">${movie.title}<span class="format"> ${movie.format} </span></div>`;
     }
     let eventHTML = '';
     if (movie.eventLink) {
