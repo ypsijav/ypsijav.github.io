@@ -138,13 +138,13 @@
   <div class="center-link">
 	  <a href="https://michiganhappenings.org/public" target=_blank>MICHIGAN HAPPENINGS</a></div>
   <div class="center-link" style="margin-top: 10px">  
-	  <a href="https://www.buymeacoffee.com/Cinemania" target=_blank>BUY CINEMANIA! A COFFEE</a></div>
+	  <a href="https://www.buymeacoffee.com/Cinemania" target=_blank>BUY CINEMANIA! A PREROLL</a></div>
 	  
 	  
 
 <div id="mc_embed_signup">
     <form action="https://website.us22.list-manage.com/subscribe/post?u=43b14fe45a964c9bb30c00c8a&amp;id=bcb1779527&amp;f_id=002acae1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <div id="mc_embed_signup_scroll"><h2>SUBSCRIBE TO EMAIL LIST</h2>
+        <div id="mc_embed_signup_scroll"><span class="center-link" style="margin: 0px">SUBSCRIBE TO EMAIL LIST</span>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
             <div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div><div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" value="" required=""></div>
         <div id="mce-responses" class="clear foot">
@@ -202,17 +202,59 @@
 </div>
 
 <script>
-  // Function to fetch CSV file containing movie data and render movie listings
-  async function fetchMovieData() {
-    try {
-      const response = await fetch('https://ypsijav.github.io/listings.csv');
-      const csvData = await response.text();
-      const movies = parseCsv(csvData);
-      renderMovieListings(movies);
-    } catch (error) {
-      console.error('Error fetching movie data:', error);
+	// Function to parse CSV data into an array of objects
+function parseCsv(csvData) {
+  const currentDate = new Date();
+  const lines = csvData.trim().split('\n');
+  const headers = lines[0].split(',');
+  const events = [];
+
+  for (let i = 1; i < lines.length; i++) {
+    const values = lines[i].split(',');
+    const event = {};
+
+    for (let j = 0; j < headers.length; j++) {
+      event[headers[j].trim()] = values[j].trim();
+    }
+
+    // Add city information to the dataset
+    event.city = values[headers.indexOf('City')].trim();
+
+    // Convert dateText to a Date object for comparison
+    const eventDate = new Date(event.date);
+
+    // Check if the event date is later than or equal to today's date (comparing date part only)
+    if (eventDate.getFullYear() > currentDate.getFullYear() ||
+        (eventDate.getFullYear() === currentDate.getFullYear() &&
+        eventDate.getMonth() > currentDate.getMonth()) ||
+        (eventDate.getFullYear() === currentDate.getFullYear() &&
+        eventDate.getMonth() === currentDate.getMonth() &&
+        eventDate.getDate() >= currentDate.getDate())) {
+      events.push(event);
     }
   }
+
+  return events;
+}
+
+ // Function to fetch CSV file containing movie data and render movie listings
+    async function fetchMovieData() {
+      const csvUrl = 'https://ypsijav.github.io/listings.csv'; // Specify the web link here
+      try {
+        const response = await fetch(csvUrl);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const csvData = await response.text();
+        console.log('CSV Data:', csvData); // Log raw CSV data
+        const movies = parseCsv(csvData);
+        console.log('Parsed Movies:', movies); // Log parsed movie data
+        renderMovieListings(movies);
+      } catch (error) {
+        console.error('Error fetching movie data:', error);
+      }
+    }
+
 
   // Function to parse CSV data into an array of objects
   function parseCsv(csvData) {
