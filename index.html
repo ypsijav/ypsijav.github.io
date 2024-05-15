@@ -237,24 +237,18 @@ function parseCsv(csvData) {
   return events;
 }
 
- // Function to fetch CSV file containing movie data and render movie listings
-    async function fetchMovieData() {
-      const csvUrl = 'https://ypsijav.github.io/listings.csv'; // Specify the web link here
-      try {
-        const response = await fetch(csvUrl);
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const csvData = await response.text();
-        console.log('CSV Data:', csvData); // Log raw CSV data
-        const movies = parseCsv(csvData);
-        console.log('Parsed Movies:', movies); // Log parsed movie data
-        renderMovieListings(movies);
-      } catch (error) {
-        console.error('Error fetching movie data:', error);
-      }
-    }
 
+  // Function to fetch CSV file containing movie data and render movie listings
+  async function fetchMovieData() {
+    try {
+      const response = await fetch('listings.csv');
+      const csvData = await response.text();
+      const movies = parseCsv(csvData);
+      renderMovieListings(movies);
+    } catch (error) {
+      console.error('Error fetching movie data:', error);
+    }
+  }
 
   // Function to parse CSV data into an array of objects
   function parseCsv(csvData) {
